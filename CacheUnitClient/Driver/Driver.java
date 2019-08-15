@@ -11,7 +11,7 @@ public class Driver
 {
 	public static void main(String[] args)
 	{
-		Model model = new CacheUnitModel ();
+	Model model = new CacheUnitModel ();
         View view = new CacheUnitView ();
         Controller controller = new CacheUnitController (model, view);
         ((CacheUnitModel)model).addObserver(controller);
