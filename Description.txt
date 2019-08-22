@@ -1,0 +1,6 @@
+MMU (Memory Management Unit) System - 
+An external MMU system built from scratch using three different cache algorithms for the Paging System - LRU, Second Chance and Random.
+For reuse purposes, all code is bundled into one JAR and by that implemented the Strategy pattern.
+For easier planning and maintenance MVC was used. 
+To improve performance, multi-threading programming was used. 
+This also includes a client side built with Swing (Java) and usage of JSON for passing data between server/client.
